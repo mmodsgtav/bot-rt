@@ -6,7 +6,7 @@ from datetime import datetime
 
 logger = logging.getLogger()
 
-cuentas = ['222241634']
+cuentas = ['222241634'] # Cuenta @112cmadrid
 
 def create_api():
     auth = tweepy.OAuthHandler("", "")
