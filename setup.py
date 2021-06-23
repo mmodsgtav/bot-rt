@@ -9,9 +9,9 @@ logger = logging.getLogger()
 cuentas = ['222241634']
 
 def create_api():
-    auth = tweepy.OAuthHandler("Fu43nAFDOVpYrXlprJuWT67km", "v1Raahd0NFnOWjvXomcUvJCfz8bWC07IQr5CZTDJ1gPMMTGTTo")
-    auth.set_access_token("1002235730129768448-kApmdmh20lgezsDHk5QtXEIOQ7pJ2n",
-                          "UQXu8YiHNlJ2sxDsk5saOD8CuS4x2tA71cYO2dt0wyizv")
+    auth = tweepy.OAuthHandler("", "")
+    auth.set_access_token("",
+                          "")
     api = tweepy.API(auth)
 
     try:
