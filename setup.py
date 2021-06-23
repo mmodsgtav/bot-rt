@@ -36,7 +36,7 @@ class FavRetweetListener(tweepy.StreamListener):
 
         tuit_hour = int(tweet.created_at.strftime("%H")) + 2
 
-        if (6 <= tuit_hour <= 18):
+        if (5 <= tuit_hour <= 9):
             if tweet.author.id != cuentas[0]:
                 return
             else:
